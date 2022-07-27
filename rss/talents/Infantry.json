@@ -1,0 +1,208 @@
+{
+    "Defense_1": {
+        "category": "simple",
+        "buffs": {
+            "defense": {
+                "infantry": [1]
+            }
+        }
+    },
+
+    "Attack_1": {
+        "category": "simple",
+        "buffs": {
+            "attack": {
+                "infantry": [1, 2]
+            }
+        }
+    },
+
+    "Defense_2": {
+        "category": "simple",
+        "buffs": {
+            "defense": {
+                "infantry": [1, 2]
+            }
+        }
+    },
+
+    "Iron_Spear": {
+        "category": "complex",
+        "buffs": {
+            "damage" : [
+                3, 6, 9
+            ]
+        },
+        "condition" : ["only_to_cavalry"]
+    },
+
+    "Undying_Fury": {
+        "category": "complex",
+        "buffs": {
+            "rage": [
+                    3, 6, 9
+            ]
+        },
+        "condition": ["per_normal_attack"]
+    },
+
+    "Double-Headed_Axe": {
+        "category": "simple",
+        "buffs": {
+            "normal_attack_damage": [
+                0,5, 1, 1.5
+            ]
+        }
+    },
+
+    "Call_of_the_Pack": {
+        "category": "complex",
+        "buffs": {
+            "defense": [
+                2, 4, 6
+            ]
+        },
+        "condition": ["self_less_than_50_strength"]
+    },
+
+    "March_Speed_1": {
+        "category": "simple",
+        "buffs": {
+            "march_speed": {
+                "infantry": [
+                    3, 6
+                ]
+            }
+        }
+    },
+
+    "March_Speed_2": {
+        "category": "simple",
+        "buffs": {
+            "march_speed": {
+                "infantry": [
+                    3, 6
+                ]
+            }
+        }
+    },
+
+    "Defense_2": {
+        "category": "simple",
+        "buffs": {
+            "defense": {
+                "infantry": [
+                    1, 2
+                ]
+            }
+        }
+    },
+
+    "Health_1": {
+        "category": "simple",
+        "buffs": {
+            "health": {
+                "infantry": [
+                    1, 2
+                ]
+            }
+        }
+    },
+
+    "Fleet_Of_Foot": {
+        "category": "simple",
+        "buffs": {
+            "march_speed": {
+                "infantry": [
+                    3, 6
+                ]
+            }
+        }
+    },
+
+    "Strong_of_Body": {
+        "category": "simple",
+        "buffs": {
+            "health": {
+                "infantry": [
+                    3, 6
+                ]
+            }
+        }
+    },
+
+    "Health_2": {
+        "category": "simple",
+        "buffs": {
+            "health": {
+                "infantry": [1]
+            }
+        }
+    },
+
+    "Attack_2": {
+        "category": "simple",
+        "buffs": {
+            "attack": {
+                "infantry": [
+                    1, 2
+                ]
+            }
+        }
+    },
+
+    "Health_3": {
+        "category": "simple",
+        "buffs": {
+            "health": {
+                "infantry": [
+                    1, 2
+                ]
+            }
+        }
+    },
+
+    "Defense_3": {
+        "category": "simple",
+        "buffs": {
+            "defense": {
+                "infantry": [1]
+            }
+        }
+    },
+
+    "Snare_of_Thorns": {
+        "category": "complex",
+        "buffs": {
+            "reduce_enemy_march_speed": [ //Is this correct?
+                5, 10, 15, 20
+            ]
+        },
+        "condition": ["per_normal_attack"],
+        "duration": [2],
+        "probability": [10]
+    },
+
+    "Hold_The_Line": {
+        "category": "complex",
+        "buffs": {
+            "reduce_damage_taken": [
+                5, 10, 15, 20
+            ]
+        },
+        "condition": ["only_infantry"],
+        "duration": [2],
+        "probability": [10]
+    },
+
+    "Elite_Soldiers": {
+        "category": "complex",
+        "buffs": {
+            "attack": [0.5, 1, 1.5, 2, 2.5], //Check if this is correct
+            "defense": [0.5, 1, 1.5, 2, 2.5],
+            "health": [0.5, 1, 1.5, 2, 2.5],
+        },
+        "condition": ["only_infantry"]
+    }
+
+}
