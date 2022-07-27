@@ -87,7 +87,7 @@
         }
     },
 
-    "Defense_2": {
+    "Defense_3": {
         "category": "simple",
         "buffs": {
             "defense": {
@@ -162,7 +162,7 @@
         }
     },
 
-    "Defense_3": {
+    "Defense_4": {
         "category": "simple",
         "buffs": {
             "defense": {
@@ -174,7 +174,7 @@
     "Snare_of_Thorns": {
         "category": "complex",
         "buffs": {
-            "reduce_enemy_march_speed": [ //Is this correct?
+            "reduce_enemy_march_speed": [
                 5, 10, 15, 20
             ]
         },
@@ -198,9 +198,9 @@
     "Elite_Soldiers": {
         "category": "complex",
         "buffs": {
-            "attack": [0.5, 1, 1.5, 2, 2.5], //Check if this is correct
+            "attack": [0.5, 1, 1.5, 2, 2.5],
             "defense": [0.5, 1, 1.5, 2, 2.5],
-            "health": [0.5, 1, 1.5, 2, 2.5],
+            "health": [0.5, 1, 1.5, 2, 2.5]
         },
         "condition": ["only_infantry"]
     }
