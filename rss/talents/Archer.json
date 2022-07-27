@@ -1,0 +1,201 @@
+{
+    "Attack_1": {
+        "category": "simple",
+        "buffs": {
+            "attack": {
+                "archer": [1]
+            }
+        }
+    },
+
+    "Defense_1": {
+        "category": "simple",
+        "buffs": {
+            "defense": {
+                "archer": [1]
+            }
+        }
+    },
+
+    "March_Speed_1": {
+        "category": "simple",
+        "buffs": {
+            "march_speed": {
+                "archer": [
+                    3, 6
+                ]
+            }
+        }
+    },
+
+    "Attack_2": {
+        "category": "simple",
+        "buffs": {
+            "attack": {
+                "archer": [
+                    1, 2
+                ]
+            }
+        }
+    },
+
+    "Attack_3": {
+        "category": "simple",
+        "buffs": {
+            "attack": {
+                "archer": [1]
+            }
+        }
+    },
+
+    "Arrows_Nocked": {
+        "category": "complex",
+        "buffs": {
+            "attack": [
+                3, 6, 9
+            ]
+        },
+        "condition": ["self_less_than_50_strength"]
+    },
+
+    "Rapid_Fire": {
+        "category": "simple",
+        "buffs": {
+            "normal_attack_damage": [
+                0.5, 1, 1.5
+            ]
+        }
+    },
+
+    "Armed_And_Armored": {
+        "category": "simple",
+        "buffs": {
+            "health": {
+                "archer": [
+                    1, 2, 3
+                ]
+            }
+        }
+    },
+
+    "Thumb_Ring": {
+        "category": "complex",
+        "buffs": {
+            "damage":[
+                3, 6, 9
+            ]
+        },
+        "condition": ["only_to_infantry"]
+    },
+
+    "Full_Quiver": {
+        "category": "simple",
+        "buffs": {
+            "attack": {
+                "archer": [
+                    1, 2, 3
+                ]
+            }
+        }
+    },
+
+    "Razor_Sharp": {
+        "category": "complex",
+        "buffs": {
+            "rage": [
+                3, 6, 9
+            ]
+        },
+        "condition": ["per_normal_attack"]
+    },
+
+    "Attack_4": {
+        "category": "simple",
+        "buffs": {
+            "attack": {
+                "archer": [
+                    1, 2, 3
+                ]
+            }
+        }
+    },
+
+    "March_Speed_2": {
+        "category": "simple",
+        "buffs": {
+            "march_speed": {
+                "archer": [
+                    3, 6, 9
+                ]
+            }
+        }
+    },
+
+    "Health_1": {
+        "category": "simple",
+        "buffs": {
+            "health": {
+                "archer": [1]
+            }
+        }
+    },
+
+    "Health_2": {
+        "category": "simple",
+        "buffs": {
+            "health": {
+                "archer": [1]
+            }
+        }
+    },
+
+    "Defense_2": {
+        "category": "simple",
+        "buffs": {
+            "defense": {
+                "archer": [1]
+            }
+        }
+    },
+
+    "March_Speed_3": {
+        "category": "simple",
+        "buffs": {
+            "march_speed": {
+                "archer": [3]
+            }
+        }
+    },
+
+    "Venomous_Sting": {
+        "category": "simple",
+        "buffs": {
+            "additional_skill_damage": [
+                2, 4, 6, 8
+            ]
+        }
+    },
+
+    "Phoenix-Tail_Arrows": {
+        "category": "complex",
+        "buffs": {
+            "additional_attack": [
+                50, 100, 150, 200
+            ]
+        },
+        "condition": ["only_archers"],
+        "probability": [10]
+    },
+
+    "Whistling_Arrows": {
+        "category": "complex",
+        "buffs": {
+            "all_damage_dealt": [
+                5, 10, 15, 20 ,25
+            ]
+        },
+        "condition": ["only_archers"],
+        "probability": [10],
+        "duration": [2]
+    }
+}
