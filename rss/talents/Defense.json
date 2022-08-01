@@ -1,0 +1,187 @@
+{
+    "Defense_1": {
+        "category": "simple",
+        "buffs": {
+            "all": {
+                "defense": [0.5]
+            }
+        }
+    },
+
+    "Attack_1": {
+        "category": "simple",
+        "buffs": {
+            "all": {
+                "attack": [
+                    0.5, 1, 1.5
+                ]
+            }
+        }
+    },
+
+    "Defense_2": {
+        "category": "simple",
+        "buffs": {
+            "all": {
+                "defense": [
+                    0.5, 1, 1.5
+                ]
+            }
+        }
+    },
+
+    "Spiked_Armor": {
+        "category": "simple",
+        "buffs": {
+            "counterattack_damage": [
+                0.5, 1, 1.5
+            ]
+        }
+    },
+
+    "No_Weaknesses": {
+        "category": "simple",
+        "buffs": {
+            "reduce_damage_taken": [
+                0.5, 1, 1.5
+            ]
+        }
+    },
+
+    "Burning_Blood": {
+        "category": "complex",
+        "buffs": {
+            "rage": [
+                2, 4, 6
+            ]
+        },
+        "condition": ["attacked"]
+    },
+
+    "Master_Armorer": {
+        "category": "complex",
+        "buffs": {
+            "all": {
+                "defense": [
+                    0.5, 1, 1.5
+                ]
+            }
+    },
+    "condition": ["enter_battle"]
+    },
+
+    "Loose_Formation": {
+        "category": "simple",
+        "buffs": {
+            "reduce_skill_damage_taken": [
+                3, 6, 9
+            ]
+        }
+    },
+
+    "Balance": {
+        "category": "simple",
+        "buffs": {
+            "reduce_damage_taken": [
+                2, 4, 6
+            ],
+            "reduce_damage_dealt": [
+                1, 2, 3
+            ]
+        }
+    },
+
+    "Health_1": {
+        "category": "simple",
+        "buffs": {
+            "all": {
+                "health": [0.5]
+            }
+        }
+    },
+
+    "March_Speed_1": {
+        "category": "simple",
+        "buffs": {
+            "all": {
+                "march_speed": [
+                    3, 6
+                ]
+            }
+        }
+    },
+
+    "Attack_2": {
+        "category": "simple",
+        "buffs": {
+            "all": {
+                "attack": [
+                    0.5, 1
+                ]
+            }
+        }
+    },
+
+    "Attack_3": {
+        "category": "simple",
+        "buffs": {
+            "all": {
+                "attack": [0.5]
+            }
+        }
+    },
+
+    "Defense_3": {
+        "category": "simple",
+        "buffs": {
+            "all": {
+                "defense": [
+                    0.5, 1, 1.5
+                ]
+            }
+        }
+    },
+
+    "Health_2": {
+        "category": "simple",
+        "buffs": {
+            "all": {
+                "health": [
+                    0.5, 1, 1.5
+                ]
+            }
+        }
+    },
+
+    "Tetsudo_Formation": {
+        "category": "complex",
+        "buffs": {
+            "reduce_all_damage_taken": [
+                5, 10, 15
+            ]
+        },
+        "duration" : 1,
+        "probability": 10
+    },
+
+    "Medicinal_Supplies": {
+        "category": "complex",
+        "buffs": {
+            "heal_slightly_wounded_units": [
+                100, 200, 300
+            ]
+        },
+        "condition": ["after_using_skill"]
+    },
+
+    "Desperate_Elegy": {
+        "category": "complex",
+        "buffs": {
+            "rage": [
+                5, 10, 15, 20, 25
+            ]
+        },
+        "condition": ["self_less_than_30_strength"],
+        "condition": ["per_normal_attack"]
+    }
+}

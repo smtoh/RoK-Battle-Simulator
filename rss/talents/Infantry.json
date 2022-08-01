@@ -179,8 +179,8 @@
             ]
         },
         "condition": ["per_normal_attack"],
-        "duration": [2],
-        "probability": [10]
+        "duration": 2,
+        "probability": 10
     },
 
     "Hold_The_Line": {
@@ -191,8 +191,8 @@
             ]
         },
         "condition": ["only_infantry"],
-        "duration": [2],
-        "probability": [10]
+        "duration": 2,
+        "probability": 10
     },
 
     "Elite_Soldiers": {
